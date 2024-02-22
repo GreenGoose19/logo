@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#nav-bar{
+    height: 60px; 
+    background-color:#588157;
+    border-bottom: 1px solid #283618;
+    align-items: center;
+    display:flex;  
+}
+.fh {
+    margin-right: 230px;
+    text-decoration: none;
+    color: #a3b18a;
+   
+    font-weight: 150;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+input{
+    color: #a3b18a;
+    font-family: Arial, Helvetica, sans-serif;
+   width: 20%;
+   height: 42%;
+    background: #dad7cd;
+    border: 3px solid #283618;
+    border-radius: 5px;
+}
+#lol {
+    color: #a3b18a;
+    font-family: Arial, Helvetica, sans-serif;
+   width: 5%;
+   height: 42%;
+   margin-left:3px; 
+   background-color: #dad7cd;
+    border: 3px solid #283618;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#lol:hover{
+    background-color: #283618;
+}
+.footer-bar{
+    text-align: center;
+    color: #a3b18a;
+    background-color: #588157;
+    border: 1px solid #283618;
+    
+}
+.footer-bar h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.social-icon {
+    text-decoration: none;
+    margin-left: 27px;  
+}
+.social-icon i{
+    padding: 10px;
+    background-color: #dad7cd;
+    border-radius: 50%;
+    color: #588157;
+}
+.social-icon i:hover{
+    padding: 10px;
+    background-color: #283618;
+    border-radius: 50%;
+    color:  #dad7cd;
+}
+.bottom{
+    margin-top: 20px;
+}
+#content{
+    color: #a3b18a;
+    background-color: #588157;
+    text-align: center;
+    min-height: 73vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#click{
+    margin-top: 58px;
+    background-color: #dad7cd;
+    border: 3px solid #283618;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px;
+    width: 160px;
+    border-radius: 10px;
+    color: #a3b18a;
+   
+}
+#click:hover{
+    background-color: #283618;
+
+}
+
